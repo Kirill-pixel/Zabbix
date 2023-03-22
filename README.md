@@ -32,3 +32,15 @@ systemctl enable zabbix-server zabbix-agent apache2
 3. Добавьте Zabbix Server в список разрешенных серверов ваших Zabbix Agentов
 4. Добавьте Zabbix Agentов в раздел Configuration > Hosts вашего Zabbix Servera
 5. Проверьте что в разделе Latest Data начали появляться данные с добавленных агентов
+![Скриншот-1](https://github.com/Kirill-pixel/Zabbix/blob/main/2.png)
+![Скриншот-1](https://github.com/Kirill-pixel/Zabbix/blob/main/3.png)
+![Скриншот-1](https://github.com/Kirill-pixel/Zabbix/blob/main/4.png)
+![Скриншот-1](https://github.com/Kirill-pixel/Zabbix/blob/main/5.png)
+```yaml
+wget https://repo.zabbix.com/zabbix/6.4/ubuntu/pool/main/z/zabbix-release/zabbix-release_6.4-1+ubuntu22.04_all.deb
+dpkg -i zabbix-release_6.4-1+ubuntu22.04_all.deb
+apt update
+apt install zabbix-agent
+systemctl restart zabbix-agent
+systemctl enable zabbix-agent
+   ```
