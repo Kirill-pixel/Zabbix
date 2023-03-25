@@ -54,3 +54,13 @@ apt install zabbix-agent
 systemctl restart zabbix-agent
 systemctl enable zabbix-agent
    ```
+   
+## Задание 3 со звёздочкой*
+Установите Zabbix Agent на Windows (компьютер) и подключите его к серверу Zabbix.
+
+#### Требования к результаты 
+1. Приложите в файл README.md скриншот раздела Latest Data, где видно свободное место на диске C:
+
+![Скриншот-1](https://github.com/Kirill-pixel/Zabbix/blob/main/6.png)
+![Скриншот-1](https://github.com/Kirill-pixel/Zabbix/blob/main/7.png)
+
