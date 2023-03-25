@@ -1,5 +1,4 @@
 # Zabbix
-![Shell Script](https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
 ### Задание 1
 Установите Zabbix Server с веб-интерфейсом.
 1. Выполняя ДЗ сверяйтесь с процессом отражённым в записи лекции.
